@@ -8,10 +8,24 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      screens:{
+        'xs':'420px',
+        'sm':'640px',
+        'md':'768px',
+        'lg':'1024px',
       },
+      colors: {
+        "primary": "#457B9D",
+      },
+      fontFamily:{
+        "main": "Sora",
+      },
+      boxShadow:{
+        cardShadow: "0px 2px 5px 2px #00000030"
+      },
+      fontSize:{
+        "nr": "16px"
+      }
     },
   },
   plugins: [],
