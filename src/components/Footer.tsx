@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className="w-full bg-primary/15 lg:px-20 sm:px-10 px-5 pt-10 pb-5">
       <Contact />
-        <p className="mt-5 xs:text-nr text-sm sm:text-start text-center">Copyright © 2023. Develop & Designed by Rizfan Herlaya</p>
+        <p className="mt-5 xs:text-nr text-sm sm:text-start text-center">Copyright &copy; 2023. Develop & Designed by Rizfan Herlaya</p>
     </div>
   );
 };

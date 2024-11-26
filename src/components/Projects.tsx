@@ -63,8 +63,8 @@ export default Projects;
 const Cards = () => {
   return (
     <div className="w-full flex flex-wrap items-center justify-evenly font-main xs:px-2 px-5">
-      {cardData.map((val) => (
-        <div className="h-[300px] w-[360px] rounded-2xl lg:my-8 md:my-5 my-3 shadow-cardShadow">
+      {cardData.map((val, ind) => (
+        <div key={ind} className="h-[300px] w-[360px] rounded-2xl lg:my-8 md:my-5 my-3 shadow-cardShadow">
           <div className="h-[65%] w-full relative">
             <Image src={val.image} alt="pic" fill={true} layout="cover" />
           </div>
