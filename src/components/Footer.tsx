@@ -21,7 +21,7 @@ const Contact = () => {
       <h2 className="lg:text-5xl xs:text-4xl text-3xl font-bold capitalize">get in touch</h2>
       <p>rizfanher@gmail.com</p>
       <ul className="flex gap-4 w-full sm:justify-start justify-center">
-        {["Linkedin", "Github", "Instagram"].map((val, ind) => (
+        {["LinkedIn", "GitHub", "Instagram"].map((val, ind) => (
           <li key={ind} className="">
             <Image src={`/${val}.png`} alt="logo" height={40} width={40} />
           </li>
